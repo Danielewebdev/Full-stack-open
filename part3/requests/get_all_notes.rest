@@ -1,3 +1,8 @@
-GET  http://localhost:3001/api/info
-Content-Type: text/plain
 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Daniele Rossi",
+    "number": "333"
+}
